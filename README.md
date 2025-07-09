@@ -1,19 +1,17 @@
-# US State Capitals Geo-Enricher
+# US State Capitals – With Coordinates
 
-This Python script enriches a JSON file of U.S. state capitals adresses by adding *latitude* and *longitude* using ZIP codes.  
+This Python script adds latitude and longitude to each U.S. state capital using ZIP codes. The original JSON file (`us_state_capitals.json`) already had state names, capital names, adresses, and ZIPs, but it was missing geographic coordinates.
 
-I wanted a lightweight, code-based way to enhance location data, with no heavy tools.
-It helped me explore working with structured files, dictionaries, and basic geodata.
+## What I Did
 
-## What it does
+At first, I thought about using an API or doing it through Ubuntu or Gloodata, but most API services either needed authentication or cost money, and I didn’t want to deal with that. So I decided to just write the whole thing myself.
 
-- Takes a JSON file with state capitals and their ZIP codes  
-- Looks up geographic coordinates for each ZIP code  
-- Adds `latitude` and `longitude` to each capital  
-- Outputs a new JSON file that includes coordinates for each capital
+I found a free dataset of U.S. ZIP codes with coordinates. I downloaded it as a CSV file first (because it's smaller), but parsing CSV with JSON was a hassle, so I re-downloaded the same file as JSON and used that instead.
+
 
 ## Files
 
-- `main.py` — Main script  
-- `us_state_capitals.json` — Input file with capitals and ZIPs  
-- `us_state_capitals_with_coords.json` — Output file with coordinates added
+- `main.py`- the script
+- `us_state_capitals.json` - list of state capitals (without coordinates)
+- `georef-united-states-of-america-zc-point.json` - big US geodataset with lat/lon
+- `us_state_capitals_with_coords.json` - final output with coordinates added
