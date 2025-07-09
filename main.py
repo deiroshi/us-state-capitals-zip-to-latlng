@@ -29,3 +29,11 @@ for capital in capital_data["state_capitals"]:
 # Save the result
 with open("us_state_capitals_with_coords.json", "w") as f:
     json.dump(capital_data, f, indent=2) # Make it readable
+
+# Validate it
+try:
+    with open('us_state_capitals_with_coords.json', 'r') as f:
+        json.load(f)
+    print("JSON is valid.")
+except json.JSONDecodeError as e:
+    print(f"JSON is invalid: {e}")
