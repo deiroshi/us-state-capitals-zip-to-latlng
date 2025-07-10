@@ -140,8 +140,8 @@
       "state_code": "ID",
       "zip": "83720",
       "coordinates": {
-        "lat": null,
-        "lon": null
+        "lat": 43.61771,
+        "lon": -116.19973
       }
     },
     {
@@ -152,8 +152,8 @@
       "state_code": "IL",
       "zip": "62706",
       "coordinates": {
-        "lat": null,
-        "lon": null
+        "lat": 39.79784,
+        "lon": –89.65587
       }
     },
     {
@@ -224,8 +224,8 @@
       "state_code": "ME",
       "zip": "04333",
       "coordinates": {
-        "lat": null,
-        "lon": null
+        "lat": 44.30671,
+        "lon": -69.78222
       }
     },
     {
@@ -248,8 +248,8 @@
       "state_code": "MA",
       "zip": "02133",
       "coordinates": {
-        "lat": null,
-        "lon": null
+        "lat": 42.35838,
+        "lon": -71.06383
       }
     },
     {
@@ -308,8 +308,8 @@
       "state_code": "MT",
       "zip": "59620",
       "coordinates": {
-        "lat": null,
-        "lon": null
+        "lat": 46.59250,
+        "lon": -112.03550
       }
     },
     {
@@ -320,8 +320,8 @@
       "state_code": "NE",
       "zip": "68509",
       "coordinates": {
-        "lat": null,
-        "lon": null
+        "lat": 40.82440,
+        "lon": -96.68520
       }
     },
     {
@@ -378,10 +378,10 @@
       "street_address": "Capitol Building",
       "city": "Albany",
       "state_code": "NY",
-      "zip": "12224",
+      "zip": "12207",
       "coordinates": {
-        "lat": null,
-        "lon": null
+        "lat": 42.65657,
+        "lon": -73.74749
       }
     },
     {
@@ -524,8 +524,8 @@
       "state_code": "UT",
       "zip": "84114",
       "coordinates": {
-        "lat": null,
-        "lon": null
+        "lat": 40.77578,
+        "lon": -111.88820
       }
     },
     {
@@ -536,8 +536,8 @@
       "state_code": "VT",
       "zip": "05609",
       "coordinates": {
-        "lat": null,
-        "lon": null
+        "lat": 44.26010,
+        "lon": -72.57590
       }
     },
     {
@@ -548,8 +548,8 @@
       "state_code": "VA",
       "zip": "23218",
       "coordinates": {
-        "lat": null,
-        "lon": null
+        "lat": 37.55390,
+        "lon": -77.46080
       }
     },
     {
@@ -560,8 +560,8 @@
       "state_code": "WA",
       "zip": "98504",
       "coordinates": {
-        "lat": null,
-        "lon": null
+        "lat": 47.04420,
+        "lon": -122.90070
       }
     },
     {
@@ -596,8 +596,8 @@
       "state_code": "WY",
       "zip": "82002",
       "coordinates": {
-        "lat": null,
-        "lon": null
+        "lat": -104.789990,
+        "lon": 41.135140
       }
     }
   ]
